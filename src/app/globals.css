@@ -33,7 +33,9 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  width: 100%;
+  max-width: 100vw;
   line-height: 1.6;
 }
 
@@ -381,6 +383,16 @@ p {
 /* Page Styles */
 .page-wrapper {
   overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.page-grid {
+  gap: 4rem;
+}
+
+.glass-panel-p {
+  padding: 3rem;
 }
 
 .text-center {
@@ -599,6 +611,14 @@ p {
 
   .project-content {
     padding: 1.5rem;
+  }
+
+  .page-grid {
+    gap: 1.5rem !important;
+  }
+
+  .glass-panel-p {
+    padding: 1.5rem !important;
   }
 }
 

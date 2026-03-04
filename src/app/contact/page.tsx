@@ -53,7 +53,7 @@ export default function Contact() {
 
             <section className="section" style={{ paddingTop: '2rem' }}>
                 <div className="container">
-                    <div className="grid grid-cols-2" style={{ gap: '4rem' }}>
+                    <div className="grid grid-cols-2 page-grid">
                         <div>
                             <h2 className="section-title">Contact Information</h2>
                             <p style={{ marginBottom: '3rem', fontSize: '1.125rem' }}>
@@ -94,7 +94,7 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <div className="glass-panel" style={{ padding: '3rem' }}>
+                        <div className="glass-panel glass-panel-p">
                             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                                 {submitStatus.message && (
                                     <div style={{

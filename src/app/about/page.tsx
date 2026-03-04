@@ -17,7 +17,7 @@ export default function About() {
 
             <section className="section">
                 <div className="container">
-                    <div className="grid grid-cols-2" style={{ alignItems: 'center', gap: '4rem' }}>
+                    <div className="grid grid-cols-2 page-grid" style={{ alignItems: 'center' }}>
                         <div>
                             <h2 className="section-title">Our Mission</h2>
                             <p style={{ marginBottom: '1.5rem', fontSize: '1.125rem' }}>
@@ -30,7 +30,7 @@ export default function About() {
                                 visions to life through innovative web and mobile applications.
                             </p>
                         </div>
-                        <div className="glass-panel" style={{ padding: '3rem' }}>
+                        <div className="glass-panel glass-panel-p">
                             <div className="grid" style={{ gap: '2rem' }}>
                                 <div style={{ display: 'flex', gap: '1rem' }}>
                                     <Users className="text-secondary" style={{ color: 'var(--accent-primary)' }} size={32} />
